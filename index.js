@@ -66,12 +66,8 @@ let gradeTotalList = [document.getElementById("grade-1-total"), document.getElem
 calculateButton.addEventListener('click', ()=>{
 
     for (let i=0;i<gradeEarnedList.length;i++) {
-
-        console.log(typeof gradeEarnedList[i].value)
-        console.log(typeof gradeTotalList[i].value)
     
         if (gradeEarnedList[i].value === "" || gradeTotalList[i].value === "") {
-            console.log("Got here")
             return
         }
     }
