@@ -1,0 +1,56 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main-div {
+    display:inline-block;
+    line-height: 5px;
+}
+
+#main-div p {
+    font-size:13px;
+}
+
+#grade-1-label {
+    font-weight:bold;
+}
+
+#grade-2-label {
+    font-weight:bold;
+}
+
+.alter-num-grades-button {
+    position:relative;
+    display:inline-block;
+    top:0px;
+
+    width:150px;
+    height:30px;
+
+    border: 1px solid black;
+    cursor:pointer;
+
+    text-align: center;
+}
+
+.alter-num-grades-button:active {
+    color:white;
+    background-color:black;
+}
+
+.alter-num-grades-button p {
+    position:relative;
+    top:0px;
+}
+
+#remove-grade-button {
+    display:none
+}
+
+#results-box {
+    position:relative;
+    padding:7px;
+    display:none;
+    top:2px;
+    border:1px solid black;
+}
