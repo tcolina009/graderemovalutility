@@ -10,7 +10,7 @@ answerDiv.addEventListener("click", ()=>{
 
     console.log("got here")
 
-    if (answerInput.value === "grand calculus") {
+    if (answerInput.value.toLowerCase() === "grand calculus") {
         messageh5.style.display = "inline-block"
         randomLink.style.display = "inline-block"
     }
