@@ -115,13 +115,6 @@ calculateButton.addEventListener('click', ()=>{
     // Get the index of the max to find the final altered grade
     let maxGradeIndex = alteredGradeList.indexOf(maxAlteredGrade)
     let finalAlteredGrade = alteredGradeList[maxGradeIndex]
-
-    // This section adds paragraph elements to the results box
-
-    // If the maximum altered grade is above a 105% it's probably madeline
-    if (maxAlteredGrade >= 1.05 && maxAlteredGrade <= 1.10) {
-        window.location.href = "otherpages/transcendence.html"
-    } 
     
     const resultsP = document.createElement("p")
     const resultsText = document.createTextNode(`Remove Grade #${maxGradeIndex+1}: ${gradeEarnedList[maxGradeIndex].value}/${gradeTotalList[maxGradeIndex].value}`)
